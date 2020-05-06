@@ -4,7 +4,9 @@ const state = {
 };
 
 const getters = {
-    getWebSocket: (state) => state.webSocket,
+    getWebSocket: (state) => {
+        return state.webSocket;
+    },
     getResponse: (state) => state.message,
 };
 

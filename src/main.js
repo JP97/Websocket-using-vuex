@@ -1,6 +1,6 @@
-import Vue from 'vue'
-import App from './App.vue'
-import store from './store'
+import Vue from "vue";
+import App from "./App.vue";
+import store from "./store";
 
 // import socketio from 'socket.io';
 // import VueSocketIO from 'vue-socket.io';
@@ -9,9 +9,9 @@ import store from './store'
 
 // Vue.use(VueSocketIO, SocketInstance)
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 new Vue({
-  store,
-  render: h => h(App)
-}).$mount('#app')
+    store,
+    render: (h) => h(App),
+}).$mount("#app");

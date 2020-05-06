@@ -12,7 +12,8 @@
         <div>
             <p>
                 The Response from the message is:
-                {{ this.$store.getters.getResponse }}
+                <!-- {{ this.$store.getters.getResponse }} -->
+                {{ this.getResponse }}
             </p>
         </div>
     </div>
